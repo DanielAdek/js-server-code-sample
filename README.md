@@ -2,7 +2,7 @@
 
 ### Description
 
-This repository contains a sample NodeJS server code example. It is a simple application to send json data throw API endpoint.
+This repository contains a sample NodeJS server code example. It is a simple application to send json data through API endpoint.
 
 
 ### Interesting things to note
