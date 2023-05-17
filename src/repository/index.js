@@ -6,7 +6,7 @@ class ColorRepository {
 
   static fetchFromColor = () => db.colors;
 
-  static fetchByDataColor = (field, data) => db.colors.filter(color => color[field] === data);
+  static fetchByFieldColor = (field, data) => db.colors.filter(color => color[field] === data);
 }
 
 export default ColorRepository;

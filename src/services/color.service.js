@@ -25,7 +25,7 @@ export class ColorService {
         return MakeResponse.failure("Invalid color rgb")
       }
 
-      const found_color = ColorRepository.fetchByDataColor("color_name", color_name);
+      const found_color = ColorRepository.fetchByFieldColor("color_name", color_name);
 
       // check if already exist
       if (found_color.length) return MakeResponse.failure("Color already taken", null, 404);
